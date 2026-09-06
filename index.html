@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="profile.png" alt="profile">
-    <h1>Welcome Master</h1>
-    <label for="userName">Name</label>
-    <input type="text" name="name" id="userName">
-    <label for="Usermail">Email: </label>
-    <input type="email" name="mail" id="userMail">
-    <label for="userNumber">Phone Number: </label>
-    <input type="number" name="phone" id="userNumber">
-    <button id="tombol">Login</button>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum totam eos ad quis alias reiciendis minima expedita optio repudiandae cumque, veniam aspernatur delectus porro, unde quaerat reprehenderit dignissimos perspiciatis ut repellat id quod, amet voluptates. Praesentium suscipit illum, totam fugiat neque voluptatum quisquam at aut.</p>
+    <div>
+        <img src="profile.png" alt="profile">
+        
+        <h1>Welcome Master</h1>
+
+        <form action="">
+            <label for="userName">Name</label>
+            <input type="text" name="userName" id="userName">
+
+            <label for="userMail">Email: </label>
+            <input type="email" name="userMail" id="userMail">
+            
+            <label for="userNumber">Phone Number: </label>
+            <input type="tel" name="userNumber" id="userNumber">
+            
+            <button type="submit" id="tombol">Login</button>
+        </form>
+        <p>Please login to continue</p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
