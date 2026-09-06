@@ -1,5 +1,6 @@
 body {
-    background-image: url(ACB_1920x1080.jpg);
+    background-image: url(zigzag-seamless.jpg);
+    background-repeat: repeat;
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 100px;
