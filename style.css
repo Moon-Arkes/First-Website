@@ -14,12 +14,9 @@ h1 {
     font-size: 40px;
 }
 
-form {
-    text-align: center;
-}
-
 label, input {
     display: block;
+    margin: 0 auto;
 }
 
 p  {
