@@ -1,4 +1,5 @@
 body {
+    background-image: url(ACB_1920x1080.jpg)
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 100px;
@@ -12,6 +13,11 @@ img {
 h1 {
     text-align: center;
     font-size: 40px;
+}
+
+fieldset {
+    background-color: rgba(1, 1, 1, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 label {
