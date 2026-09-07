@@ -19,7 +19,6 @@ h1 {
 }
 
 fieldset {
-    gap: 10px;
     background-color: rgba(1, 1, 1, 0.5);
     backdrop-filter: blur(10px);
 }
@@ -35,6 +34,7 @@ input {
     display: block;
     width: 250px;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 p  {
