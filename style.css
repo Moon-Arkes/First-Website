@@ -13,7 +13,6 @@ img {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    -webkit-text-stroke: 14px gray;
     color: rgb(2, 2, 2);
     text-align: center;
     font-size: 40px;
